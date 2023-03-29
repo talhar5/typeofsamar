@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/typeofsamar/static/css/main.e173757b.css",
+    "main.js": "/typeofsamar/static/js/main.e4168709.js",
+    "index.html": "/typeofsamar/index.html",
+    "main.e173757b.css.map": "/typeofsamar/static/css/main.e173757b.css.map",
+    "main.e4168709.js.map": "/typeofsamar/static/js/main.e4168709.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e173757b.css",
+    "static/js/main.e4168709.js"
+  ]
+}
