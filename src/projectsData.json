@@ -1,34 +1,48 @@
 {
-  "projects": [
-    {
-      "title": "First Project Name",
-      "description": "lorem impsum lorem impsum lorem impsum lorem impsum"
-    },
-    {
-      "title": "First Project Namefgf",
-      "description": "lorem impsum lorem impsum lorem impsum lorem impsum"
-    }
-  ],
-  "vanillajs": [
-    {
-      "title": "First Project Name",
-      "description": "lorem impsum lorem impsum lorem impsum lorem impsum"
-    },
-    {
-      "title": "First Project Namefgf",
-      "description": "lorem impsum lorem impsum lorem impsum lorem impsum"
-    }
-  ],
-  "htmlcss": [
-    {
-      "title": "Responsive Contact Us Form",
-      "description": "This beautiful-looking, responsive contact us form is made using HTML and CSS only. Media queries in CSS are used to make it responsive when screen-size changes.",
-      "url": "https://1talhapk.github.io/contact-us-form/"
-    },
-    {
-      "title": "Currency Converter",
-      "description": "This currency converter is made using reactjs.",
-      "url": "https://1talhapk.github.io/currency-converter"
-    }
-  ]
+  "reactjs": {
+    "type": "React.js",
+    "projects": [
+      {
+        "title": "First Project Name",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "First Project Namefgf",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      }
+    ]
+  },
+  "vanilla": {
+    "type": "Vanilla Javascript",
+    "projects": [
+      {
+        "title": "First Project Name",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "First Project Namefgf",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+        
+      }
+    ]
+  },
+  "htmlcss": {
+    "type": "HTML/CSS",
+    "projects": [
+      {
+        "title": "Responsive Contact Us Form",
+        "description": "This beautiful-looking, responsive contact us form is made using HTML and CSS only. Media queries in CSS are used to make it responsive when screen-size changes.",
+        "url": "https://1talhapk.github.io/contact-us-form/"
+      },
+      {
+        "title": "Currency Converter",
+        "description": "This currency converter is made using reactjs.",
+        "url": "https://1talhapk.github.io/currency-converter"
+      }
+    ]
+  }
 }

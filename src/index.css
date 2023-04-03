@@ -1,17 +1,3 @@
-/* default styles  */
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 /* default styles ends  */
 
 :root {
@@ -29,6 +15,10 @@ code {
   margin: 0;
   padding: 0;
 }
+body {
+  overflow: hidden;
+  user-select: none;
+}
 
 /* background styles start  */
 .mainBackground {
@@ -41,11 +31,13 @@ code {
   justify-content: center;
 }
 .outerBox {
-  height: 90%;
-  width: 95%;
+  position: absolute;
+  top: calc(env(safe-area-inset-top) + 5vmin);
+  right: calc(env(safe-area-inset-right) + 5vmin);
+  bottom: calc(env(safe-area-inset-bottom) + 5vmin);
+  left: calc(env(safe-area-inset-left) + 5vmin);
   border: 2px solid var(--border-color-dark);
 }
-/* background styles end  */
 
 /* grid styles start  */
 .grid-container {
@@ -55,74 +47,139 @@ code {
   grid-template-columns: 50% 50%;
   grid-template-rows: repeat(4, 25%);
 }
-.show-section {
+.grid-item-name {
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1;
+}
+.grid-item-display {
   grid-row: 2 / -1;
-  overflow: scroll;
-  padding-left: 1.5em;
+  overflow-y: auto;
+  padding-left: 1.2rem; 
+  scroll-behavior: smooth;
 }
-.show-section::-webkit-scrollbar {
-  display: none;
-}
-.nav-section {
-  grid-row: 3 / span 2;
+.grid-item-nav {
+  grid-row: 2 / span 1;
   grid-column: 2 / span 1;
 }
-/* .nav-section{
-
+/* .grid-item-display::-webkit-scrollbar {
+  display: none;
 } */
-/* grid styles end  */
 
 /* Name section styling  */
 .name-section {
-  padding: 1.5rem;
+  padding: 0.9rem 1.1rem;
   float: right;
   text-align: right;
-  grid-row: 1 / span 1;
-  grid-column-start: 2;
+  width: 100%;
 }
 .name-section h1 {
-  border-bottom: 2px solid var(--border-color-dark);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+  font-size: 2.6rem;
 }
+.name-section .title {
+  font-size: 1.1rem;
+  padding-top: 0.2rem;
+}
+
+/* welcome section styling */
+.welcome-section {
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 1.7rem;
+  letter-spacing: 0.1rem;
+}
+.welcome-section p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+
+/* projects section styling */
+.personal-projects{
+  font-size: 0.9rem;
+  padding-bottom: 0.3rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: var(--text-hover-color-dark);
+}
+
+
 
 /* contact box styling */
-.contact-box {
+.contact-section {
   display: flex;
   flex-direction: column;
 }
-.contact-box div {
+.contact-section div {
   display: flex;
   flex-direction: column;
 }
-.contact-box a{
-  color: wheat;
+.contact-section a {
+  color: var(--text-active-color-dark);
 }
 
-.btns-box {
+.nav-section {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  align-content: flex-start;
+  margin-right: 2rem;
 }
 
 /* utilites  */
 .btn {
-  padding: 0.4rem 0.1rem;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0.2rem 0.1rem;
   margin: 0.2rem 0.1rem;
-  width: 40%;
+  text-align: left;
+  width: 6.6rem;
+  width: 22vmin;
   font-size: 1rem;
-  border: 1px solid var(--border-color-dark);
+  border: none;
   color: var(--btn-text-color, --text-color-dark);
-  border-radius: 0.1rem;
   background-color: var(--btn-bg-color, --bg-color-dark);
-  transition: background 0.3s;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
 }
 .btn:hover {
-  --btn-bg-color: var(--bg-hover-color-dark);
   --btn-text-color: var(--text-hover-color-dark);
+  transform: translateY(-2px);
 }
 .btn.active {
-  --btn-bg-color: var(--bg-active-color-dark);
   --btn-text-color: var(--text-active-color-dark);
-  border-color: var(--bg-active-color-dark);
+  --btn-text-color: var(--text-active-color-dark);
+}
+
+.loading {
+  padding: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  html{
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  html{
+    font-size: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  html{
+    font-size: 100%;
+  }
+  .welcome-section {
+    width: 16rem;
+  }
 }

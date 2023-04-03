@@ -18,14 +18,14 @@ export default function App() {
     <div>
       <Background>
         <div className="grid-container">
-          <div className="name-section">
+          <div className="grid-item-name">
             <NameSection />
           </div>
-          <div className="nav-section">
+          <div className="grid-item-nav">
             <NavBtns handleClick={handleActiveSection} />
           </div>
 
-          <div className="show-section">
+          <div className="grid-item-display">
             {activeSection === 'welcome' && <Welcome />}
             {activeSection === 'projects' && <Projects />}
             {activeSection === 'contact' && <Contact />}

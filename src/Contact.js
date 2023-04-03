@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='contact-box contact-section'>
+    <div className='contact-section'>
         <div>
             Email: trazzaq9@gmail.com
             Phone: +923017681731
