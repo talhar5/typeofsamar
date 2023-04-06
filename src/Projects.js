@@ -13,22 +13,22 @@ export default function Projects() {
   useEffect(() => {
     setIsLoading(true);
     setProjects(projectsData);
-    console.log(projectsData);
     setIsLoading(false);
     setIsError(false);
   }, [])
 
   return (
     <div className=''>
-      <h1 className='personal-projects'>
-        <FontAwesomeIcon icon={faDiagramProject} size="ms" />
+      <h1 className='personal-projects-heading'>
+        <FontAwesomeIcon icon={faDiagramProject} size="sm" />
         {" Personal Projects"}
       </h1>
       {isLoading && <div className='loading'>Loading...</div>}
       {isError && <div className='error'>Error occured</div>}
       {!isLoading && <ProjectList projectGroup={projects.reactjs} />}
-      {!isLoading && <ProjectList projectGroup={projects.htmlcss} />}
       {!isLoading && <ProjectList projectGroup={projects.vanilla} />}
+      {!isLoading && <ProjectList projectGroup={projects.htmlcss} />}
     </div>
   )
 }
+

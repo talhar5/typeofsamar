@@ -8,12 +8,17 @@
   --text-active-color-dark: #eaeaea;
   --text-hover-color-dark: #e8eaed;
   --border-color-dark: #4b4c51;
+
+  --border-left: wheat;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+*::-webkit-scrollbar {
+  display: none;
 }
 body {
   overflow: hidden;
@@ -50,20 +55,21 @@ body {
 .grid-item-name {
   grid-row: 1 / span 1;
   grid-column: 1 / -1;
+  overflow-y: auto;
 }
 .grid-item-display {
   grid-row: 2 / -1;
+  width: fit-content;
   overflow-y: auto;
-  padding-left: 1.2rem; 
+  padding-left: 1.2rem;
   scroll-behavior: smooth;
 }
 .grid-item-nav {
   grid-row: 2 / span 1;
   grid-column: 2 / span 1;
+  z-index: 4;
+  overflow-y: auto;
 }
-/* .grid-item-display::-webkit-scrollbar {
-  display: none;
-} */
 
 /* Name section styling  */
 .name-section {
@@ -98,26 +104,49 @@ body {
   font-size: 1.1rem;
 }
 
-
 /* projects section styling */
-.personal-projects{
+.personal-projects-heading {
   font-size: 0.9rem;
-  padding-bottom: 0.3rem;
 }
+
+.project-type-styles {
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 0.5rem;
+  background-color: #000000;
+  width: fit-content;
+  border-radius: 0 0.4rem 0.4rem 0;
+  padding: 0.1rem 0.3rem;
+  margin-bottom: -2px;
+}
+.project-section {
+  width: 50vmin;
+  padding: 0.3rem;
+}
+.project-section .project-title {
+  font-family: "Arimo", sans-serif;
+  font-family: "Ubuntu";
+}
+.project-section .project-description {
+  font-family: "Ubuntu";
+  font-family: "Arimo", sans-serif;
+  font-size: 1.05rem;
+}
+
 a {
   text-decoration: none;
   color: inherit;
 }
-a:hover{
+a:hover {
   color: var(--text-hover-color-dark);
 }
 
-
-
 /* contact box styling */
 .contact-section {
+  width: 50vmin;
   display: flex;
-  flex-direction: column;
+  height: 100%;
 }
 .contact-section div {
   display: flex;
@@ -125,6 +154,30 @@ a:hover{
 }
 .contact-section a {
   color: var(--text-active-color-dark);
+}
+.contact-section .contacts{
+  display: flex;
+  justify-content: center;
+}
+.contact-section .contact-line{
+  display: inline;
+  padding: 0.5rem;
+}
+.contact-section .social-contacts{
+  align-self: flex-end;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+
+}
+.contact-section a {
+  text-decoration: none;
+  color: var(--text-color-dark);
+  padding: 2rem 1rem;
+
+}
+.contact-section a:hover {
+  color: var(--text-hover-color-dark);
 }
 
 .nav-section {
@@ -166,20 +219,27 @@ a:hover{
 }
 
 @media screen and (max-width: 480px) {
-  html{
+  html {
     font-size: 80%;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 480px) {
-  html{
+  html {
     font-size: 90%;
   }
 }
 @media screen and (min-width: 768px) {
-  html{
+  html {
     font-size: 100%;
   }
   .welcome-section {
     width: 16rem;
+  }
+  .grid-item-display {
+    width: 200%;
+    z-index: 2;
+  }
+  .project-section {
+    width: 45vmax;
   }
 }
