@@ -3,13 +3,18 @@
     "type": "React.js",
     "projects": [
       {
-        "title": "First Project Name",
+        "title": "Infinite scroll Books",
         "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
         "url": "https://1talhapk.github.io/currency-converter"
       },
       {
         "title": "First Project Namefgf",
         "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Currency Converter",
+        "description": "This currency converter is made using reactjs.",
         "url": "https://1talhapk.github.io/currency-converter"
       }
     ]
@@ -18,12 +23,52 @@
     "type": "Vanilla Javascript",
     "projects": [
       {
-        "title": "First Project Name",
+        "title": "Notes App",
         "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
         "url": "https://1talhapk.github.io/currency-converter"
       },
       {
-        "title": "First Project Namefgf",
+        "title": "Snake Game",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "English Dictionary",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Simple Calculator",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "News Website",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Stopwatch",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Weather App",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Quiz App",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Book Library",
+        "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Form validation",
         "description": "lorem impsum lorem impsum lorem impsum lorem impsum",
         "url": "https://1talhapk.github.io/currency-converter"
         
@@ -39,7 +84,22 @@
         "url": "https://1talhapk.github.io/contact-us-form/"
       },
       {
-        "title": "Currency Converter",
+        "title": "Fitness website landing page",
+        "description": "This currency converter is made using reactjs.",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "My Skills Page",
+        "description": "This currency converter is made using reactjs.",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Food Delivery Website",
+        "description": "This currency converter is made using reactjs.",
+        "url": "https://1talhapk.github.io/currency-converter"
+      },
+      {
+        "title": "Neon Watch",
         "description": "This currency converter is made using reactjs.",
         "url": "https://1talhapk.github.io/currency-converter"
       }

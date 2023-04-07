@@ -1,6 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function Project({ project }) {
   return (
@@ -8,7 +6,7 @@ export default function Project({ project }) {
       <h2 className='project-title'>
         {project.title + " "}
         <a href={project.url} target='blank'>
-          <FontAwesomeIcon icon={faUpRightFromSquare} size="sm" />
+        <i class="fa-solid fa-up-right-from-square fa-sm"></i>
         </a>
       </h2>
       <div className='project-description'>{project.description}</div>

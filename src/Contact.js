@@ -16,8 +16,8 @@ export default function Contact() {
         <a href='https://www.twitter.com/1talha_pk' target='blank'>
           <i className="fa-brands fa-twitter fa-2xl"></i>
         </a>
-        <a href='https://www.twitter.com/2talhapk' target='blank'>
-          <i class="fa-regular fa-envelope fa-2xl"></i>
+        <a href='https://github.com/1talhapk' target='blank'>
+        <i class="fa-brands fa-github fa-2xl"></i>
         </a>
       </div>
     </div>

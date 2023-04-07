@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "author": "Talha Razzaq <trazzaq9@gmail.com> (https://www.typeofsamar.com)",
-  "homepage": "",
+  "homepage": "https://1talhapk.github.io/typeofsamar",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",

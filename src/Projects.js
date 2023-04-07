@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import projectsData from './projectsData.json';
 import ProjectList from './projectsList';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDiagramProject } from '@fortawesome/free-solid-svg-icons';
 
 export default function Projects() {
 
@@ -20,7 +18,7 @@ export default function Projects() {
   return (
     <div className=''>
       <h1 className='personal-projects-heading'>
-        <FontAwesomeIcon icon={faDiagramProject} size="sm" />
+        <i class="fa-solid fa-diagram-project fa-sm"></i>
         {" Personal Projects"}
       </h1>
       {isLoading && <div className='loading'>Loading...</div>}
