@@ -254,6 +254,12 @@ a:hover {
   html {
     font-size: 80%;
   }
+  .grid-item-display{
+    z-index: 4;
+  }
+  .nav-section{
+    z-index: 2;
+  }
 }
 @media screen and (max-width: 768px) and (min-width: 480px) {
   html {

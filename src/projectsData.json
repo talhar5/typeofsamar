@@ -104,8 +104,9 @@
     "projects": [
       {
         "title": "My Skills Page",
-        "description": "This currency converter is made using reactjs.",
-        "url": "https://1talhapk.github.io/currency-converter"
+        "description": "This page displaying skills has been developed responsively using only CSS and HTML.",
+        "url": "https://1talhapk.github.io/skills-page",
+        "tags":["css", "html"]
       },
       {
         "title": "Responsive Contact Us Form",
