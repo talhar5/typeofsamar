@@ -8,7 +8,6 @@
   --text-active-color-dark: #eaeaea;
   --text-hover-color-dark: #e8eaed;
   --border-color-dark: #4b4c51;
-
   --border-left: wheat;
 }
 
@@ -16,13 +15,34 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: opacity 500ms ease-in-out;
 }
+
 *::-webkit-scrollbar {
   display: none;
 }
 body {
   overflow: hidden;
   user-select: none;
+}
+/* splashscreen stylings */
+.splash-screen{
+  position: absolute;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: #383838;
+  color: var(--text-color-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  z-index: 10;
+  font-weight: lighter;
+}
+.splash-screen .my-name span{
+  color: var(--text-active-color-dark);
 }
 
 /* background styles start  */
@@ -97,7 +117,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   line-height: 1.7rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.07rem;
 }
 .welcome-section p {
   margin-bottom: 1rem;
@@ -155,26 +175,24 @@ a:hover {
 .contact-section a {
   color: var(--text-active-color-dark);
 }
-.contact-section .contacts{
+.contact-section .contacts {
   display: flex;
   justify-content: center;
 }
-.contact-section .contact-line{
+.contact-section .contact-line {
   display: inline;
   padding: 0.5rem;
 }
-.contact-section .social-contacts{
+.contact-section .social-contacts {
   align-self: flex-end;
   position: absolute;
   display: flex;
   flex-direction: row;
-
 }
 .contact-section a {
   text-decoration: none;
   color: var(--text-color-dark);
   padding: 2rem 1rem;
-
 }
 .contact-section a:hover {
   color: var(--text-hover-color-dark);
@@ -203,7 +221,7 @@ a:hover {
   color: var(--btn-text-color, --text-color-dark);
   background-color: var(--btn-bg-color, --bg-color-dark);
   cursor: pointer;
-  transition: background 0.3s, transform 0.3s;
+  transition: background 0.5s, transform 0.3s;
 }
 .btn:hover {
   --btn-text-color: var(--text-hover-color-dark);
@@ -212,6 +230,20 @@ a:hover {
 .btn.active {
   --btn-text-color: var(--text-active-color-dark);
   --btn-text-color: var(--text-active-color-dark);
+}
+.splash {
+  transition: opacity 500ms ease-in-out;
+}
+.fade-out{
+  opacity: 0;
+}
+
+.fade-in{
+  opacity: 0;
+}
+
+.fade-in-active{
+  opacity: 1;
 }
 
 .loading {

@@ -13,12 +13,14 @@ export default function Projects() {
     setProjects(projectsData);
     setIsLoading(false);
     setIsError(false);
+    setTimeout(() => {
+      document.querySelector(".fade-in").classList.add("fade-in-active");
+    }, 50);
   }, [])
-
   return (
-    <div className=''>
+    <div className='fade-in'>
       <h1 className='personal-projects-heading'>
-        <i class="fa-solid fa-diagram-project fa-sm"></i>
+        <i className="fa-solid fa-diagram-project fa-sm"></i>
         {" Personal Projects"}
       </h1>
       {isLoading && <div className='loading'>Loading...</div>}

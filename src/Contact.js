@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function Contact() {
+  
+  useEffect(()=>{
+    setTimeout(() => {
+      document.querySelector(".fade-in").classList.add("fade-in-active");
+    }, 50);
+  }, [])
+ 
   return (
-    <div className='contact-section'>
+    <div className='contact-section fade-in'>
       <div className='contacts'>
         <div className='contact-line'>
-          <i class="fa-regular fa-envelope fa-lg"></i> trazzaq9@gmail.com
+          <i className="fa-regular fa-envelope fa-lg"></i> trazzaq9@gmail.com
         </div>
         <div className='contact-line'>
-          <i class="fa-brands fa-whatsapp fa-lg"></i> +92-301-7681731
+          <i className="fa-brands fa-whatsapp fa-lg"></i> +92-301-7681731
         </div>
       </div>
 
@@ -17,7 +24,7 @@ export default function Contact() {
           <i className="fa-brands fa-twitter fa-2xl"></i>
         </a>
         <a href='https://github.com/1talhapk' target='blank'>
-        <i class="fa-brands fa-github fa-2xl"></i>
+          <i className="fa-brands fa-github fa-2xl"></i>
         </a>
       </div>
     </div>
