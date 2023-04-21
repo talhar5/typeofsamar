@@ -5,31 +5,31 @@
       {
         "title": "Quiz App",
         "description": "A quiz application has been developed using ReactJS, which allows users to request a specific number of questions related to their desired topic via an API.",
-        "url": "https://1talhapk.github.io/quiz-app",
+        "url": "https://talhar5.github.io/quiz-app",
         "tags": ["reactjs", "fetch"]
       },
       {
         "title": "Currency Converter",
         "description": "ReactJS is the technology behind this currency converter, which has been created with the help of the 'fetch' function to obtain currency rates from an API.",
-        "url": "https://1talhapk.github.io/currency-converter",
+        "url": "https://talhar5.github.io/currency-converter",
         "tags": ["reactjs", "useEffect", "fetch()"]
       },
       {
         "title": "Strong Password Generator",
         "description": "This application has been created using ReactJS and offers users the ability to generate robust passwords, as well as convert URLs or text into QR codes.",
-        "url": "https://1talhapk.github.io/strongPasswordGenerator/",
+        "url": "https://talhar5.github.io/strongPasswordGenerator/",
         "tags": ["reactjs", "useEffect"]
       },
       {
         "title": "Infinite scroll Book List",
         "description": "Axios has been employed to retrieve books via an API. The page is designed to dynamically load more books upon reaching the last one.",
-        "url": "https://1talhapk.github.io/infinte-scroll-books-app/",
+        "url": "https://talhar5.github.io/infinte-scroll-books-app/",
         "tags": ["bootstrap", "axios", "javascript"]
       },
       {
         "title": "Pokemon",
         "description": "This ReactJS application utilizes Axios to retrieve a list of Pokemons via an API.",
-        "url": "https://1talhapk.github.io/pokemon",
+        "url": "https://talhar5.github.io/pokemon",
         "tags": ["reactjs", "axios"]
       }
     ]
@@ -40,61 +40,67 @@
       {
         "title": "Notes App",
         "description": "The notes are stored in the localStorage. The entirety of the functionality has been implemented using pure JavaScript, while Bootstrap has been utilized to style the interface.",
-        "url": "https://1talhapk.github.io/myNoteApp",
+        "url": "https://talhar5.github.io/myNoteApp",
         "tags": ["javascript", "localStorage", "bootstrap"]
+      },
+      {
+        "title": "Tic Tac Toe",
+        "description": "A Tic Tac Toe game has been created using vanilla JavaScript and CSS, allowing two players to play against each other.",
+        "url": "https://talhar5.github.io/tic-tac-toe/",
+        "tags": ["javascript", "css"]
       },
       {
         "title": "Snake Game",
         "description": "The snake game has been developed using vanilla JavaScript, CSS, and HTML. This game stores the highest score record in the localStorage.",
-        "url": "https://1talhapk.github.io/snakeGame",
+        "url": "https://talhar5.github.io/snakeGame",
         "tags": ["javascript", "css"]
       },
       {
         "title": "Basic Calculator",
         "description": "A basic calculator has been created using JavaScript, CSS, and HTML, which has the ability to perform fundamental calculations.",
-        "url": "https://1talhapk.github.io/basic-calculator",
+        "url": "https://talhar5.github.io/basic-calculator",
         "tags": ["javascript", "css"]
       },
       {
         "title": "English Dictionary",
         "description": "To create the English dictionary, JavaScript, HTML, and CSS have been utilized, while the XMLHttpRequest object is leveraged to make requests to the dictionary API.",
-        "url": "https://1talhapk.github.io/samarDictionary/",
+        "url": "https://talhar5.github.io/samarDictionary/",
         "tags": ["javascript", "bootstrap"]
       },
       {
         "title": "Top News",
         "description": "XMLHttpRequest has been utilized to retrieve data from an API while the design of the app has been accomplished using Bootstrap.",
-        "url": "https://1talhapk.github.io/samarNews",
+        "url": "https://talhar5.github.io/samarNews",
         "tags": ["promise", "bootstrap"]
       },
       {
         "title": "Stopwatch",
         "description": "This stopwatch has been implemented using only vanilla JavaScript, CSS, and HTML.",
-        "url": "https://1talhapk.github.io/stopwatch",
+        "url": "https://talhar5.github.io/stopwatch",
         "tags": ["javascript", "css"]
       },
       {
         "title": "Weather App",
         "description": "This application retrieves weather details via a weather API. Asynchronous requests are facilitated through the use of async/await.",
-        "url": "https://1talhapk.github.io/weather-app",
+        "url": "https://talhar5.github.io/weather-app",
         "tags": ["javascript", "css"]
       },
       {
         "title": "Neon Watch",
         "description": "The design of this neon watch has been implemented using vanilla JavaScript, CSS, and HTML.",
-        "url": "https://1talhapk.github.io/neon-watch/",
+        "url": "https://talhar5.github.io/neon-watch/",
         "tags": ["javascript", "css"]
       },
       {
         "title": "Book Library",
         "description": "The book library application has been built using JavaScript and Bootstrap. This application offers the ability to store a book's name, author, and type.",
-        "url": "https://1talhapk.github.io/samarLibrary",
+        "url": "https://talhar5.github.io/samarLibrary",
         "tags": ["javascript", "bootstrap"]
       },
       {
         "title": "Form Validation",
         "description": "The creation of this form has involved the use of JavaScript and Bootstrap. Additionally, regex in javascript has been used to validate the form's input.",
-        "url": "https://1talhapk.github.io/form-validation/",
+        "url": "https://talhar5.github.io/form-validation/",
         "tags": ["regex", "javascript", "bootstrap"]
       }
     ]
@@ -105,25 +111,25 @@
       {
         "title": "My Skills Page",
         "description": "This page displaying skills has been developed responsively using only CSS and HTML.",
-        "url": "https://1talhapk.github.io/skills-page",
-        "tags":["css", "html"]
+        "url": "https://talhar5.github.io/skills-page",
+        "tags": ["css", "html"]
       },
       {
         "title": "Responsive Contact Us Form",
         "description": "This contact form has an attractive appearance and is designed using only HTML and CSS. By incorporating media queries into the CSS, the form can adjust responsively to changes in screen size.",
-        "url": "https://1talhapk.github.io/contact-us-form/",
+        "url": "https://talhar5.github.io/contact-us-form/",
         "tags": ["javascript", "bootstrap"]
       },
       {
         "title": "Fitness Website Landing Page",
         "description": "The landing page of this fitness website has been developed using HTML and CSS. As of now, it is optimized solely for laptop screens.",
-        "url": "https://1talhapk.github.io/fitness-website/",
+        "url": "https://talhar5.github.io/fitness-website/",
         "tags": ["css", "html"]
       },
       {
         "title": "Food Website",
         "description": "This website has been developed responsively using only CSS and HTML.",
-        "url": "https://1talhapk.github.io/samarfoods",
+        "url": "https://talhar5.github.io/samarfoods",
         "tags": ["css", "html"]
       }
     ]
